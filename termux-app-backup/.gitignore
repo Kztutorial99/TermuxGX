@@ -1,0 +1,12 @@
+# Build outputs
+**/build/
+**/.gradle/
+**/local.properties
+
+# IDE
+**/.idea/
+**/*.iml
+**/.DS_Store
+
+# Keystore (should not be committed)
+app/dev_keystore.jks
