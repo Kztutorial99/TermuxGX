@@ -232,6 +232,8 @@ public final class TermuxActivity extends Activity implements ServiceConnection 
 
         setSettingsButtonView();
 
+        setAiAssistantButtonView();
+
         setNewSessionButtonView();
 
         setToggleKeyboardView();
@@ -524,6 +526,14 @@ public final class TermuxActivity extends Activity implements ServiceConnection 
         ImageButton settingsButton = findViewById(R.id.settings_button);
         settingsButton.setOnClickListener(v -> {
             startActivity(new Intent(this, SettingsActivity.class));
+        });
+    }
+
+    private void setAiAssistantButtonView() {
+        ImageButton aiButton = findViewById(R.id.ai_assistant_button);
+        aiButton.setOnClickListener(v -> {
+            Intent intent = new Intent(TermuxActivity.this, com.termux.app.ai.AISidebarActivity.class);
+            startActivity(intent);
         });
     }
 

@@ -69,6 +69,14 @@
                 android:resource="@xml/shortcuts" />
         </activity>
 
+        <activity
+            android:name=".app.ai.AISidebarActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|density|screenLayout|uiMode|keyboard|keyboardHidden|navigation"
+            android:label="@string/ai_sidebar_title"
+            android:launchMode="singleTask"
+            android:resizeableActivity="true"
+            android:theme="@style/Theme.Termux" />
+
         <activity-alias
             android:name=".HomeActivity"
             android:targetActivity=".app.TermuxActivity">

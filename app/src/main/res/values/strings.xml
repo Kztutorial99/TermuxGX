@@ -226,4 +226,45 @@
     <!-- Donate Preference -->
     <string name="donate_preference_title">Donate</string>
 
+    <!-- AI Sidebar -->
+    <string name="ai_sidebar_title">AI Assistant</string>
+    <string name="ai_logo">AI Logo</string>
+    <string name="ai_welcome">Welcome to AI Assistant</string>
+    <string name="ai_welcome_subtitle">Powered by Llama 3.3 70B\nLogin or signup to start chatting</string>
+    <string name="login_title">Login</string>
+    <string name="signup_title">Sign Up</string>
+    <string name="email_or_username">Email or Username</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="logout">Logout</string>
+    <string name="or_signup">or create new account</string>
+    <string name="api_key_saved">API Key saved securely</string>
+    <string name="type_message">Type a message…</string>
+    <string name="send">Send</string>
+    <string name="execute_command">Execute Termux Command</string>
+    <string name="profile">Profile</string>
+    <string name="termux_command">Termux Command:</string>
+    <string name="output_label">Output:</string>
+    <string name="ai_api_base_url">AI API Base URL</string>
+    <string name="ai_api_base_url_summary">Enter your Vercel API URL</string>
+    <string name="ai_settings_title">AI Assistant Settings</string>
+    <string name="ai_settings_summary">Configure AI Assistant settings</string>
+    <string name="action_ai_sidebar">Open AI Assistant</string>
+    <string name="ai_chat_cleared">Chat history cleared</string>
+    <string name="ai_login_success">Login successful</string>
+    <string name="ai_signup_success">Signup successful</string>
+    <string name="ai_logout_success">Logout successful</string>
+    <string name="ai_error_login">Login failed: %1$s</string>
+    <string name="ai_error_signup">Signup failed: %1$s</string>
+    <string name="ai_error_chat">Chat failed: %1$s</string>
+    <string name="ai_error_command">Command failed: %1$s</string>
+    <string name="ai_passwords_mismatch">Passwords do not match</string>
+    <string name="ai_weak_password">Password must be at least 6 characters</string>
+    <string name="ai_invalid_email">Invalid email address</string>
+    <string name="ai_username_short">Username must be at least 3 characters</string>
+
 </resources>

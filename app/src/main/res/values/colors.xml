@@ -1,3 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Base colors -->
+    <color name="background_primary">#FFFFFF</color>
+    <color name="background_secondary">#F5F5F5</color>
+    <color name="background_tertiary">#EEEEEE</color>
+    
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    
+    <!-- Accent colors -->
+    <color name="accent_blue">#4285F4</color>
+    <color name="accent_green">#34A853</color>
+    <color name="accent_red">#EA4335</color>
+    <color name="accent_yellow">#FBBC05</color>
+    
+    <!-- AI Sidebar colors -->
+    <color name="ai_user_message">#4285F4</color>
+    <color name="ai_ai_message">#F1F3F4</color>
+    <color name="ai_code_block">#2D2D2D</color>
+    
+    <!-- Dark theme colors -->
+    <color name="background_primary_dark">#121212</color>
+    <color name="background_secondary_dark">#1E1E1E</color>
+    <color name="background_tertiary_dark">#2D2D2D</color>
+    <color name="text_primary_dark">#E8EAED</color>
+    <color name="text_secondary_dark">#9AA0A6</color>
+</resources>
 </resources>

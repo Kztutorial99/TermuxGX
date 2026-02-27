@@ -56,6 +56,15 @@
                         android:src="@drawable/ic_settings"
                         android:background="@null"
                         android:contentDescription="@string/action_open_settings" />
+                    
+                    <ImageButton
+                        android:id="@+id/ai_assistant_button"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_ai_logo"
+                        android:background="@null"
+                        android:contentDescription="@string/action_ai_sidebar"
+                        android:layout_marginStart="8dp"/>
                 </LinearLayout>
 
                 <ListView
